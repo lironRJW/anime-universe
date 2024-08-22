@@ -1,0 +1,96 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header styling */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 0.5rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero section styling */
+.hero {
+    background: #eee;
+    padding: 2rem;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 1.5rem;
+}
+
+.hero p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+/* Characters section styling */
+.characters {
+    padding: 1rem;
+    text-align: center;
+}
+
+.characters h2 {
+    margin-bottom: 1rem;
+}
+
+.character-card {
+    display: inline-block;
+    margin: 1rem;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.character-card img {
+    max-width: 150px;
+    border-radius: 8px;
+}
+
+.character-card h3 {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+
+/* Footer styling */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
